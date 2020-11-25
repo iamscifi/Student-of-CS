@@ -1,1 +1,2 @@
+num=
 print ((num*num)*str(int(num**.5)))
