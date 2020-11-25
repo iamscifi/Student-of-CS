@@ -1,0 +1,11 @@
+current_hour = 9
+current_minute = 0
+current_section = "AM"
+due_hour = 9
+due_minute = 0
+due_section = "AM"
+
+if current_section>due_section and current_hour>due_hour and current_minute>due_minute:
+    print("Late!")
+else: 
+    print("On time!")
