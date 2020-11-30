@@ -1,0 +1,8 @@
+mystery_value = -1
+result = "Boo :("
+if mystery_value > 0:
+    print("mystery_value is greater than 0.")
+    result = "Yay!"
+else:
+    print("mystery_value is less than 0.")
+print(result)
