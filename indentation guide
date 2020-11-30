@@ -1,0 +1,11 @@
+mystery_value = 1
+
+if mystery_value > 0:
+    print("This line should only run if 'mystery_value' is GREATER than 0.")
+    print("This line should only be printed if the above line is printed.")
+print("This line should always be printed.")
+if 0 > mystery_value:
+    print("This line should only run if 'mystery_value' is LESS than 0.")
+print("This line should always be printed.\n")
+
+
