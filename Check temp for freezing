@@ -1,0 +1,7 @@
+temperature = -3.7
+celsius = True
+
+if (celsius and temperature <= 0) or (not celsius and temperature <= 32):
+    print("Freezing")
+else:
+    print("Not freezing")
