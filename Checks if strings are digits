@@ -1,0 +1,11 @@
+myNumericString = "12345"
+myNonNumericString = "ABCDE"
+
+if myNumericString.isdigit():
+    print("The first string is numerical.")
+else:
+    print("The first string is non-numerical.")
+if myNonNumericString.isdigit():
+    print("The second string is numerical.")
+else:
+    print("The second string is non-numerical.")
