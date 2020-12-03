@@ -1,0 +1,17 @@
+team_1 = "Georgia Tech"
+team_1_score = 28
+team_2 = "Georgia"
+team_2_score = 27
+
+if team_1_score > team_2_score:
+    winner = team_1
+    loser = team_2
+    margin = team_2_score - team_1_score
+else:
+    winner = team_2
+    loser = team_1
+    margin = team_2_score - team_1_score
+if margin == 0:
+    print(team_1, "played", team_2, "and it was a tie")
+else:
+    print(winner, "beat", loser, "by", margin)
