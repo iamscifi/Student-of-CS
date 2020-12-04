@@ -1,0 +1,37 @@
+item = "nachos"
+meat = "steak"
+queso = False
+guacamole = True
+double_meat = True
+base_price = 4.5
+if item == "quesadilla":
+    base_price = 4.0
+    #print(base_price)
+elif item == "burrito":
+    base_price = 5.0
+    #print(base_price)
+if meat == "steak":
+    base_price += 0.50
+    #print(base_price)
+elif meat == "pork":
+    base_price += 0.50
+if meat == "steak" and double_meat:
+    base_price += 1.50
+    #print(base_price)
+elif meat == "pork" and double_meat:
+    base_price += 1.50
+elif double_meat:
+    base_price += 1.0
+    #print(base_price)
+if guacamole:
+    base_price += 1.0
+    #print(base_price)
+if queso and not item == "nachos":
+    base_price += 1.0
+    #print(base_price)
+
+print(base_price)
+
+
+
+
