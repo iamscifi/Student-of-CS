@@ -1,0 +1,17 @@
+loop_count=1
+loop_num1=1
+loop_num2=11
+loop_num3=()
+
+if loop_count <4:
+    print(f"Loop {loop_count}:")
+    for i in range(loop_num1,loop_num2,loop_num3):
+        print(i)
+    loop_count += 1
+if loop_count==2:
+        loop_num1=-5
+        loop_num2=6
+if loop_count==3:
+        loop_num1=2
+        loop_num2=21
+        loop_num3=2
