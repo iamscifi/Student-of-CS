@@ -1,0 +1,10 @@
+beats_per_measure = 4
+measures = 5
+
+for i in range(measures):
+    for j in range(beats_per_measure):
+        print(j+1)
+
+
+
+
