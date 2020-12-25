@@ -1,0 +1,16 @@
+lyrics = ["I wanna be your endgame", "I wanna be your first string",
+          "I wanna be your A-Team", "I wanna be your endgame, endgame"]
+lines_of_sanity = 6
+line=0
+while line < lines_of_sanity:
+    for i in lyrics:
+        print(i)
+        line +=1
+print("MAKE IT STOP")
+
+
+
+
+
+
+
