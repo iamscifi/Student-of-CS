@@ -1,0 +1,8 @@
+
+def print_multiplication_symbol():   
+    print("×", end="")
+def print_division_symbol():
+    print("÷", end="")
+
+print_division_symbol()
+print_multiplication_symbol()
