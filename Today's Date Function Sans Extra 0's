@@ -1,0 +1,6 @@
+from datetime import date
+
+def get_todays_date():
+    return date.today().strftime("%Y/%m/%d").lstrip("0").replace("/0", "/")
+
+print(get_todays_date())
