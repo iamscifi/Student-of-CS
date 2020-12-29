@@ -1,0 +1,5 @@
+def find_area(side_length):
+    return side_length ** 2
+
+test_side_length = 4
+print("A square with the side length of", test_side_length, "has an area of", find_area(test_side_length))
